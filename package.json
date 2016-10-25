@@ -1,0 +1,30 @@
+{
+  "name": "typescript_boiler",
+  "version": "1.0.0",
+  "description": "typescript boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server --devtool --hot --inline --content-base",
+    "start": "npm run server",
+    "build": "webpack --progress --colors --display-modules"
+  },
+  "author": "Ryan Ruan",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.10.1",
+    "postcss-loader": "^1.0.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.9.5",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "normalize-scss": "^6.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+@import 'normalize/import-now';
+@import "mixins";
+@import "config";
+// Main Components
+h1 {
+    color: $color-primary;
+    background: $background-color-primary;
+    border-radius: $border-radius;
+    padding: 2rem;
+}
