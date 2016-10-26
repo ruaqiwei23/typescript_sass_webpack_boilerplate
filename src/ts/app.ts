@@ -7,6 +7,6 @@ class Greeter {
     }
 };
 
-var greeter = new Greeter('Hello, my friend! Checkout your first ts app!');
+const greeter = new Greeter('Hello, my friend! Checkout your first ts app!');
 
 document.body.innerHTML = greeter.greet();

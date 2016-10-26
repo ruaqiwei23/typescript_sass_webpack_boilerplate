@@ -21,6 +21,10 @@ module.exports = {
     },
     devtool: 'source-map',
     module: {
+      preLoaders: [{
+            test: /\.ts$/,
+            loader: 'tslint'
+          }],
         loaders: [{
             test: /\.ts$/,
             loader: 'ts-loader'
@@ -32,6 +36,11 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin('[name].css')
     ],
+    tslint: {
+      emitErrors: false,
+      failOnHint: false,
+      resourcePath: 'src/ts'
+    },
     sassLoader: {
         includePaths: [
             sassPath,
