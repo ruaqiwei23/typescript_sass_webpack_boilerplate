@@ -4,7 +4,7 @@
 
 A simple webpack boilerplate for front end projects using Typescript/Sass
 
-## Building & Dev Server
+## Build & Webpack-Dev-Server
 1. Install node and npm. The 6.x release is preferred.
 
 2. Clone the repository
@@ -14,3 +14,6 @@ A simple webpack boilerplate for front end projects using Typescript/Sass
 4. `npm run build` will build your js/css into `build/`
 
 5. `npm start` or `npm run server` then go to `localhost:8080` to use webpack dev server with hot module replacement
+
+## Linters
+Run `Tslint` and `Stylelint` to check syntax and coding style automatically when you start dev server or build process.

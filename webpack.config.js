@@ -3,6 +3,8 @@ var outputPath = path.resolve(__dirname, 'build');
 var autoprefixer = require('autoprefixer');
 var sassPath = path.resolve(__dirname, 'src/scss');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var StyleLintPlugin = require('stylelint-webpack-plugin');
+
 module.exports = {
     entry: {
         app: [
@@ -34,7 +36,13 @@ module.exports = {
         }]
     },
     plugins: [
-        new ExtractTextPlugin('[name].css')
+        new ExtractTextPlugin('[name].css'),
+        new StyleLintPlugin({
+          configFile: '.stylelintrc',
+          syntax: 'scss',
+          files: ['**/*.s?(a|c)ss'],
+          failOnError: false,
+        })
     ],
     tslint: {
       emitErrors: false,
