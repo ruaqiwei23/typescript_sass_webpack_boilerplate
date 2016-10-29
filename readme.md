@@ -5,15 +5,25 @@
 A simple webpack boilerplate for front end projects using Typescript/Sass
 
 ## Build & Webpack-Dev-Server
-1. Install node and npm. The 6.x release is preferred.
+1. Install node and npm. The 5.x+ release is preferred.
 
-2. Clone the repository
+2. Fork and clone this repository.
 
-3. `npm install` to install dependencies
+3. Run `npm install` to install dependencies and `npm tsd install` to install typings.
 
-4. `npm run build` will build your js/css into `build/`
+4. Run `npm run build` will build your js/css into `build/`.
 
-5. `npm start` or `npm run server` then go to `localhost:8080` to use webpack dev server with hot module replacement
+5. Run `npm start` or `npm run server`, visit `localhost:8080` to use webpack dev server with hot module replacement.
+
 
 ## Linters
-Run `Tslint` and `Stylelint` to check syntax and coding style automatically when you start dev server or build process.
+Integrated [Tslint](https://github.com/palantir/tslint) and [Stylelint](https://github.com/stylelint/stylelint) to check syntax and coding style automatically when you start dev server or build process.
+
+You can also run `tslint` or `stylelint` directly in the console.
+
+## Test
+Use [Karma](https://github.com/karma-runner/karma), [Mocha](https://github.com/karma-runner/karma-mocha) and [Chai](https://github.com/chaijs/chai) for testing purpose.
+
+1. Write your own tests(by default use BDD) in `test/` and name them as `<module name>_test.ts`
+
+2. Simply run `npm test`
