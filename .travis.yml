@@ -5,5 +5,5 @@ node_js:
   - "node"
 install:
   - npm install
-  - npm tsd install
+  - npm run tsd install
 sudo: false

@@ -9,7 +9,7 @@ A simple webpack boilerplate for front end projects using Typescript/Sass
 
 2. Fork and clone this repository.
 
-3. Run `npm install` to install dependencies and `npm tsd install` to install typings.
+3. Run `npm install` to install dependencies and `npm run tsd install` to install typings.
 
 4. Run `npm run build` will build your js/css into `build/`.
 
