@@ -1,6 +1,6 @@
 # Typescript and Sass Webpack Boilerplate
 
-[![Dependency Status](https://www.gemnasium.com/badges/github.com/ruaqiwei23/typescript_sass_webpack_boilerplate.svg)](https://www.gemnasium.com/github.com/ruaqiwei23/typescript_sass_webpack_boilerplate)
+[![Dependency Status](https://www.gemnasium.com/badges/github.com/ruaqiwei23/typescript_sass_webpack_boilerplate.svg)](https://www.gemnasium.com/github.com/ruaqiwei23/typescript_sass_webpack_boilerplate) [![Build Status](https://travis-ci.org/ruaqiwei23/typescript_sass_webpack_boilerplate.svg?branch=master)](https://travis-ci.org/ruaqiwei23/typescript_sass_webpack_boilerplate)
 
 A simple webpack boilerplate for front end projects using Typescript/Sass
 

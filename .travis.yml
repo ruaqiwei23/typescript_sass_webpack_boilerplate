@@ -3,5 +3,7 @@ node_js:
   - "4"
   - "5"
   - "node"
-
+install:
+  - npm install
+  - npm tsd install
 sudo: false
