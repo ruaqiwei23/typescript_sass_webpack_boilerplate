@@ -5,7 +5,7 @@ class Greeter {
     greet() {
         return '<h1>' + this.greeting + '</h1>';
     }
-};
+}
 
 const greeter = new Greeter('Hello, my friend! Checkout your first ts app!');
 

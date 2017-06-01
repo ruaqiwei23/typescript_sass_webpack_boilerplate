@@ -1,0 +1,16 @@
+{
+  "name": "typescript_boiler",
+  "globalDependencies": {
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "assertion-error": "github:DefinitelyTyped/DefinitelyTyped/assertion-error/assertion-error.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "bluebird-2.0": "github:DefinitelyTyped/DefinitelyTyped/bluebird/bluebird-2.0.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "karma": "github:DefinitelyTyped/DefinitelyTyped/karma/karma.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "log4js": "github:DefinitelyTyped/DefinitelyTyped/log4js/log4js.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "serve-static": "github:DefinitelyTyped/DefinitelyTyped/serve-static/serve-static.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "express-serve-static-core": "github:DefinitelyTyped/DefinitelyTyped/express-serve-static-core/express-serve-static-core.d.ts#44be13ae844ec0721109542d5902e41438d72855",
+    "mime": "github:DefinitelyTyped/DefinitelyTyped/mime/mime.d.ts#44be13ae844ec0721109542d5902e41438d72855"
+  }
+}

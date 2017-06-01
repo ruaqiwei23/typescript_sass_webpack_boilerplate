@@ -7,18 +7,18 @@ A simple webpack boilerplate for front end projects using Typescript/Sass.
 ![TSSW](https://raw.githubusercontent.com/ruaqiwei23/blog/gh-pages/images/tssw.png)
 
 ## Installation
-1. Install node and npm. The 5.x+ release is preferred.
+1. Install node and yarn. The latest release is preferred. If you still want to use npm, just replace all `yarn` commands below with `npm`.
 
 2. Fork and clone this repository.
 
-3. Run `npm install` to install dependencies and `npm run tsd install` to install typings.
+3. Run `yarn install` to install dependencies and `yarn run typings install` to install typings.
 
 ## Build & Webpack-Dev-Server
 1. Write your own Typescript/Sass code in `src/`.
 
-2. Run `npm run build` will build js/css into `build/`.
+2. Run `yarn run build` will build js/css into `build/`.
 
-3. Run `npm start` or `npm run server`, visit `localhost:8080` to use webpack dev server with hot module replacement.
+3. Run `yarn start` or `yarn run server`, visit `localhost:8080` to use webpack dev server with hot module replacement.
 
 ## Linters
 Integrated [Tslint](https://github.com/palantir/tslint) and [Stylelint](https://github.com/stylelint/stylelint) to check syntax and coding style automatically when you start dev server or build process.
@@ -30,7 +30,7 @@ Use [Karma](https://github.com/karma-runner/karma), [Mocha](https://github.com/k
 
 1. Write your own tests(by default use BDD) in `test/` and name them as `<module name>_test.ts`
 
-2. Simply run `npm test`
+2. Simply run `yarn test`
 
 ## License
 [MIT License](./LICENSE)
