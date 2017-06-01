@@ -1,9 +1,8 @@
 language: node_js
 node_js:
-  - "5"
   - "6"
   - "node"
 install:
   - npm install
-  - npm run tsd install
+  - npm run typings install
 sudo: false
